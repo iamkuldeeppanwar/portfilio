@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const request = axios.create({
-  baseURL: "http://localhost:8080/",
+  baseURL: "https://portfolio-backend-api-2j8r.onrender.com/",
 });
 
 export default request;
