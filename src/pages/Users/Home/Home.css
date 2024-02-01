@@ -1,0 +1,57 @@
+.bg-img {
+  background-image: url("https://ez-snippet.vercel.app/images/cover.jpeg");
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  padding: 10px;
+  height: 20vh;
+  filter: blur(2px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid white;
+}
+
+.wordCarousel {
+  div {
+    overflow: hidden;
+    height: 45px;
+    padding-top: 10px;
+    margin-top: -10px;
+    li {
+      color: rgb(36, 164, 219);
+      font-weight: 700;
+      padding: 0 5px;
+      height: 45px;
+      margin-bottom: 45px;
+      display: block;
+    }
+  }
+}
+
+.flip2 {
+  animation: flip2 4s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+.flip5 {
+  animation: flip2 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+@keyframes flip2 {
+  0% {
+    margin-top: -180px;
+  }
+  5% {
+    margin-top: -90px;
+  }
+  50% {
+    margin-top: -90px;
+  }
+  55% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -180px;
+  }
+}
